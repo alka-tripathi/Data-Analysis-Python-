@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>HTML Table Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+      }
+      th,
+      td {
+        border: 1px solid #555;
+        padding: 10px;
+        text-align: center;
+      }
+      th {
+        background-color: #4caf50;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      tr:hover {
+        background-color: #ddd;
+      }
+      caption {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Student Marks Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Roll No</th>
+          <th>Name</th>
+          <th>Math</th>
+          <th>Science</th>
+          <th>English</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Amit Sharma</td>
+          <td>85</td>
+          <td>90</td>
+          <td>88</td>
+          <td>263</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Priya Verma</td>
+          <td>78</td>
+          <td>82</td>
+          <td>80</td>
+          <td>240</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Rohit Singh</td>
+          <td>92</td>
+          <td>88</td>
+          <td>91</td>
+          <td>271</td>
+        </tr>
+        <tr>
+          <td>104</td>
+          <td>Neha Gupta</td>
+          <td>70</td>
+          <td>75</td>
+          <td>72</td>
+          <td>217</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
